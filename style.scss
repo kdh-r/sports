@@ -1,0 +1,5 @@
+@import "breakpoints/base";
+
+@media (max-width: 480px){
+  @import "breakpoints/480min";
+}
