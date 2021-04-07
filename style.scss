@@ -1,5 +1,11 @@
 @import "breakpoints/base";
 
-@media (max-width: 480px){
-  @import "breakpoints/480min";
+@media (max-width: 682px){
+  @import "breakpoints/700min";
+}
+@media (max-width: 992px){
+  @import "breakpoints/992min";
+}
+@media (max-width: 450px){
+  @import "breakpoints/450min";
 }

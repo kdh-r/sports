@@ -1,0 +1,52 @@
+
+header {
+  height: 50vh;
+}
+.header-copy{
+  height: 50vh;
+}
+.header-title img{
+  width: 157px;
+  height: 164px;
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  z-index: 2;
+}
+
+
+
+.try-header{
+    &__right{
+      font-size: 15px;
+      padding: 0;
+    }
+}
+
+.try-box{
+  background: none;
+  h2{
+    text-align: center;
+  }
+ 
+ &__right{
+   order: 0;
+   text-align: center;
+  
+ }
+ &__left{
+  order: 1;
+  text-align: center;
+  padding-top: 50px;
+  h3{
+   padding: 0 4rem 0 4rem;
+   font-size: 20px;
+  }
+  p{
+    padding: 2rem 4rem 1rem 4rem;
+  }
+  &__btn{
+    margin-top: 3rem;
+  }
+ }
+}
